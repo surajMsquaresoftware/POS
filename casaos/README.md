@@ -21,7 +21,7 @@ you don't need to wait for this to land in the official app store:
 2. Paste this URL (or the raw file contents):
 
    ```
-   https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/casaos/docker-compose.yml
+   https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/casaos/docker-compose.yml
    ```
 
 3. Install. CasaOS pulls the pre-built `ghcr.io/raktim94/nodedr-pos-backend`

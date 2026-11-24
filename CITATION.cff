@@ -1,12 +1,10 @@
 cff-version: 1.2.0
-message: "If you use NodeDR POS in research, teaching, or a public project, please cite it."
+message: "If you use Suraj Choudhari POS in research, teaching, or a public project, please cite it."
 type: software
-title: "NodeDR POS"
+title: "Suraj Choudhari POS"
 authors:
-  - family-names: Ranjit
-    given-names: Raktim
-    website: https://www.raktimranjit.com/
-repository-code: https://github.com/Raktim94/nodedr-pos
-url: https://pos.nodedr.com/
+  - family-names: Choudhari
+    given-names: Suraj
+repository-code: https://github.com/surajMsquaresoftware/POS
 license: AGPL-3.0-only
 abstract: "Offline-first, self-hosted point-of-sale and inventory management software for small retail shops."

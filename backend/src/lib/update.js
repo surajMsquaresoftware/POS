@@ -12,7 +12,7 @@
 // internal Docker network and only with UPDATER_TOKEN.
 const pkg = require('../../package.json');
 
-const REPO = process.env.UPDATE_REPO || 'Raktim94/nodedr-pos';
+const REPO = process.env.UPDATE_REPO || 'surajMsquaresoftware/POS';
 const BRANCH = process.env.UPDATE_BRANCH || 'master';
 const IMAGE = process.env.UPDATE_IMAGE || `ghcr.io/${REPO.toLowerCase().split('/')[0]}/nodedr-pos-backend`;
 const CACHE_MS = 10 * 60 * 1000;

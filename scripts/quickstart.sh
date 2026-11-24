@@ -8,15 +8,15 @@
 # updates) nodedr-pos into ./nodedr-pos and runs its installer.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts/quickstart.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts/quickstart.sh | bash
 #
 # Safe to re-run: every step only acts if the previous one didn't already
-# succeed, and an existing ./nodedr-pos checkout is updated in place rather
+# succeed, and an existing ./POS checkout is updated in place rather
 # than clobbered.
 set -euo pipefail
 
-REPO_URL="https://github.com/Raktim94/nodedr-pos.git"
-REPO_DIR="nodedr-pos"
+REPO_URL="https://github.com/surajMsquaresoftware/POS.git"
+REPO_DIR="POS"
 SUDO=""
 
 install_docker_linux() {

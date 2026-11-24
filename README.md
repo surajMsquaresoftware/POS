@@ -34,10 +34,6 @@ label, right from the app.
 Access it at **`http://<machine>:1994`** — from the shop's own machine or any
 tablet/phone on the same network.
 
-## Integrate with AI Coding Agents
-
-Use [`prompts/AI_INTEGRATION_PROMPT.md`](prompts/AI_INTEGRATION_PROMPT.md) to have a coding agent connect a store or dashboard to this POS (scoped API keys, SKU-linked stock, click-and-collect orders, MCP). See [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt).
-
 ## Install
 
 <p align="center">
@@ -70,13 +66,13 @@ WSL2; run the same command again after restarting.
 **Windows PowerShell**
 
 ```powershell
-irm https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts/quickstart.ps1 | iex
+irm https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts/quickstart.ps1 | iex
 ```
 
 **macOS / Linux Terminal**
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts/quickstart.sh | bash
+curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts/quickstart.sh | bash
 ```
 
 When installation finishes, open <http://localhost:1994>. On another phone,
@@ -470,7 +466,7 @@ If you already cloned the repository and have Docker running, use
 backend to report healthy, and print the URL to open:
 
 ```bash
-git clone https://github.com/Raktim94/nodedr-pos.git
+git clone https://github.com/surajMsquaresoftware/POS.git
 cd nodedr-pos
 ./install.sh
 ```
@@ -482,7 +478,7 @@ setup), here's exactly what it does, one command at a time:
 
 ```bash
 # 1. Get the code
-git clone https://github.com/Raktim94/nodedr-pos.git
+git clone https://github.com/surajMsquaresoftware/POS.git
 cd nodedr-pos
 
 # 2. Build the backend and frontend images (multi-stage, node:24-alpine).

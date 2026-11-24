@@ -65,7 +65,7 @@ way to run two terminals for local dev without Docker.
 ### Option A — Docker (matches production)
 
 ```bash
-git clone https://github.com/Raktim94/nodedr-pos.git
+git clone https://github.com/surajMsquaresoftware/POS.git
 cd nodedr-pos
 ./install.sh
 ```
@@ -256,13 +256,12 @@ Check the README's [Features](./README.md#features) list and this repo's
 existing issues first — a good rule of thumb is: does it fit "a single
 shop's offline counter," or does it start requiring a multi-location/
 cloud/subscription model? The latter is explicitly out of scope for this
-project (see [`nodedr-restaurant-pos`](https://github.com/Raktim94/nodedr-restaurant-pos)
-and other sister projects for adjacent, larger-scope tools). Small,
+project. Small,
 additive proposals (a new report, a new payment method, a new printer
 transport) can go straight to a feature-request issue or a PR.
 
 ## Questions & discussion
 
-Use [GitHub Discussions](https://github.com/Raktim94/nodedr-pos/discussions)
+Use [GitHub Discussions](https://github.com/surajMsquaresoftware/POS/discussions)
 for "how do I…" and general chat. Use Issues for concrete bugs and
 feature requests.

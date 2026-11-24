@@ -5,3 +5,10 @@
 # (an 80MB+ binary in git history bloats every future clone forever).
 /dist/
 /packaging/dist/
+
+# Agent instruction files
+AGENTS.md
+CLAUDE.md
+frontend/AGENTS.md
+frontend/CLAUDE.md
+prompts/

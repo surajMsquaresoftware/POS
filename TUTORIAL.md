@@ -19,13 +19,13 @@ Choose the option that matches your device:
   **Windows PowerShell**
 
   ```powershell
-  irm https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts/quickstart.ps1 | iex
+  irm https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts/quickstart.ps1 | iex
   ```
 
   **macOS / Linux Terminal**
 
   ```sh
-  curl -fsSL https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts/quickstart.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts/quickstart.sh | bash
   ```
 
   Follow the installer prompts. It sets up Docker when needed, downloads and

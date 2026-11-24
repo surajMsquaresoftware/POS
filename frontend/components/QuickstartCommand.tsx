@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Check, Copy } from "lucide-react";
 import { clsx } from "clsx";
 
-const RAW_BASE = "https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts";
+const RAW_BASE = "https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts";
 
 const OS_TABS = [
   {
@@ -80,7 +80,7 @@ export function QuickstartCommand() {
       <p className="max-w-md text-xs text-foreground/60">{active.note}</p>
       <p className="text-xs text-foreground/60">
         One command, checks for Docker and installs it if it&apos;s missing, then installs and starts
-        nodedr-pos.{" "}
+        Suraj Choudhari POS.{" "}
         <a
           href={`${RAW_BASE}/${active.id === "windows" ? "quickstart.ps1" : "quickstart.sh"}`}
           target="_blank"

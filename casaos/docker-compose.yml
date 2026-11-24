@@ -104,15 +104,15 @@ x-casaos:
     - amd64
     - arm64
   main: frontend
-  author: NodeDR Infotech Private Limited
-  developer: Raktim94
+  author: Suraj Choudhari
+  developer: Suraj Choudhari
   category: Finance
-  icon: https://cdn.jsdelivr.net/gh/Raktim94/nodedr-pos@master/casaos/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/Raktim94/nodedr-pos@master/casaos/thumbnail.png
+  icon: https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/icon.png
+  thumbnail: https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/thumbnail.png
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/Raktim94/nodedr-pos@master/casaos/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/Raktim94/nodedr-pos@master/casaos/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/Raktim94/nodedr-pos@master/casaos/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/screenshot-3.png
   title:
     en_US: NodeDR POS
   tagline:
@@ -214,6 +214,6 @@ x-casaos:
       GST-inclusive billing, loyalty points, customer dues, and returns with
       store credit.
   website: "https://www.nodedr.com"
-  repo: "https://github.com/Raktim94/nodedr-pos"
-  support: "https://github.com/Raktim94/nodedr-pos/issues"
-  docs: "https://github.com/Raktim94/nodedr-pos#readme"
+  repo: "https://github.com/surajMsquaresoftware/POS"
+  support: "https://github.com/surajMsquaresoftware/POS/issues"
+  docs: "https://github.com/surajMsquaresoftware/POS#readme"

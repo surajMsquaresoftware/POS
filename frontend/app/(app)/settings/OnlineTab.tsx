@@ -45,7 +45,7 @@ function CustomWebsiteCard() {
       </ol>
       <pre className="overflow-x-auto rounded-lg bg-surface-muted p-3 font-mono text-xs leading-relaxed">{example}</pre>
       <p className="text-sm">
-        <a className="font-medium text-brand hover:underline" href="https://github.com/Raktim94/nodedr-pos/blob/master/docs/CUSTOM_STORE.md" target="_blank" rel="noreferrer">Developer guide with Node and Python examples →</a>
+        <a className="font-medium text-brand hover:underline" href="https://github.com/surajMsquaresoftware/POS/blob/master/docs/CUSTOM_STORE.md" target="_blank" rel="noreferrer">Developer guide with Node and Python examples →</a>
       </p>
     </Card>
   );

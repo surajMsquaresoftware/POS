@@ -1,4 +1,4 @@
-# nodedr-pos quickstart — Windows (PowerShell).
+﻿# nodedr-pos quickstart — Windows (PowerShell).
 #
 # Never installs Docker Desktop. The Docker CLI and Docker Desktop are two
 # different things: the CLI alone can't run a container without a Docker
@@ -11,7 +11,7 @@
 # as a plain PowerShell command too, alongside the one running inside WSL2.
 #
 # Usage (run in PowerShell):
-#   irm https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts/quickstart.ps1 | iex
+#   irm https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts/quickstart.ps1 | iex
 #
 # Safe to re-run: every step only acts if the previous one didn't already
 # succeed, and an existing checkout inside WSL2 is updated in place rather
@@ -27,8 +27,8 @@ $ErrorActionPreference = "Stop"
 Set-Location $HOME
 
 $distroName = "Ubuntu"
-$repoDir = "nodedr-pos"
-$linuxQuickstartUrl = "https://raw.githubusercontent.com/Raktim94/nodedr-pos/master/scripts/quickstart.sh"
+$repoDir = "POS"
+$linuxQuickstartUrl = "https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scripts/quickstart.sh"
 
 # winget writes new PATH entries to the Machine/User registry values, but
 # this already-running PowerShell process keeps its own stale copy of

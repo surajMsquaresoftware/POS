@@ -115,7 +115,7 @@ export function VerifactuTab() {
           records are reported to the agency (AEAT) with your own certificate.
         </p>
         <div role="note" className="rounded-xl border border-border p-3 text-sm">
-          <strong>Implemented, not certified.</strong> It has not been run against the live AEAT portal and NODEDR has not issued its
+          <strong>Implemented, not certified.</strong> It has not been run against the live AEAT portal and Suraj Choudhari POS has not issued its
           Declaración Responsable. Test with AEAT&rsquo;s pre-production portal and ask your gestor before relying on it.
         </div>
         {data.problems.length > 0 && (

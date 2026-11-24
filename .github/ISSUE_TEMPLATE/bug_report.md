@@ -31,7 +31,7 @@ Microsoft Store / Docker Compose / CasaOS / local dev
 **Screenshots / logs**
 If applicable. For a direct-USB printing bug, include `lsusb` and
 `dmesg | grep -i usblp` output — see
-[Troubleshooting](https://github.com/Raktim94/nodedr-pos#troubleshooting-linux-till).
+[Troubleshooting](https://github.com/surajMsquaresoftware/POS#troubleshooting-linux-till).
 
 **Is this a money-correctness bug?**
 (e.g. a total that doesn't match line items, a return refunding more

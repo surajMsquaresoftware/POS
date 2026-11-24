@@ -5,10 +5,13 @@ import { usePathname, useRouter } from "next/navigation";
 import { api } from "@/lib/api";
 import type { AuthUser } from "@/lib/types";
 
-// Customer-facing pages (the loyalty portal) are opened by people who
-// have no account — they must never be bounced to the staff login.
-const PUBLIC_PREFIXES = ["/me/"];
-const isPublic = (p: string) => PUBLIC_PREFIXES.some((x) => p === x || p.startsWith(x.endsWith("/") ? x : x + "/") || p === x.replace(/\/$/, ""));
+// Customer-facing pages (landing page, customer display, loyalty portal)
+// must never be bounced to the staff login.
+const PUBLIC_PATHS = ["/", "/display"];
+const PUBLIC_PREFIXES = ["/me/", "/display/"];
+const isPublic = (p: string) =>
+  PUBLIC_PATHS.includes(p) ||
+  PUBLIC_PREFIXES.some((x) => p === x || p.startsWith(x.endsWith("/") ? x : x + "/"));
 
 export function AuthGate({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();

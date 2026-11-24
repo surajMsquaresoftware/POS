@@ -16,7 +16,7 @@ const TIMEOUT_MS = 6000;
 const MAX_RESULTS = 20;
 const CACHE_TTL_MS = 10 * 60 * 1000;
 const CACHE_MAX = 200;
-const USER_AGENT = 'nodedr-pos/1.x (https://github.com/Raktim94/nodedr-pos)';
+const USER_AGENT = 'pos/1.x (https://github.com/surajMsquaresoftware/POS)';
 
 const cache = new Map();
 
