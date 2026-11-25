@@ -1,17 +1,15 @@
-# NodeDR POS: installation and step-by-step tutorial
+# Suraj Choudhari POS: installation and step-by-step tutorial
 
-NodeDR POS is a free, open-source point-of-sale and inventory app for shops.
+Suraj Choudhari POS is a free, open-source point-of-sale and inventory app for shops.
 This guide walks through installation, first-time setup, adding products,
 making a sale, and the other tools available in the app. Every screenshot in
 [`docs/screenshots/`](docs/screenshots/) is included below.
 
-## 1. Install NodeDR POS
+## 1. Install Suraj Choudhari POS
 
 Choose the option that matches your device:
 
-- **Windows 10/11 desktop app:** install [NodeDR POS from the Microsoft
-  Store](https://apps.microsoft.com/store/detail/9N4D0GW2XZ37?cid=DevShareMCLPCS).
-- **CasaOS / ZimaOS:** install the [NodeDR POS CasaOS
+- **CasaOS / ZimaOS:** install the [Suraj Choudhari POS CasaOS
   app](casaos/README.md) from the app listing or follow its guide.
 - **Windows with WSL2, macOS, or Linux:** open PowerShell on Windows, or
   Terminal on macOS/Linux, and paste the matching one-line installer:

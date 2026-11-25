@@ -1,6 +1,6 @@
 [Unit]
 Description=NodeDR POS (Docker Compose)
-Documentation=https://pos.nodedr.com/docs
+Documentation=https://github.com/surajMsquaresoftware/POS#readme
 Requires=docker.service
 After=docker.service network-online.target
 Wants=network-online.target

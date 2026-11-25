@@ -1,21 +1,14 @@
 <p align="center">
-  <img src="docs/logo.png" alt="NodeDR POS logo" width="160">
+  <img src="docs/logo.png" alt="Suraj Choudhari POS logo" width="160">
 </p>
 
-# nodedr-pos
+# Suraj Choudhari POS
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Docker Compose](https://img.shields.io/badge/deploy-docker%20compose-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
 [![Node](https://img.shields.io/badge/node-24-339933?logo=node.js&logoColor=white)](backend/Dockerfile)
 [![Offline-first](https://img.shields.io/badge/offline--first-yes-success)](#)
 [![CasaOS / ZimaOS](https://img.shields.io/badge/CasaOS%20%2F%20ZimaOS-one--click%20app-1F6FEB)](casaos/README.md)
-
-**[Try NodeDR POS](https://pos.nodedr.com/)** · **[Case study](https://www.raktimranjit.com/projects/nodedr-pos)** · **[Maintainer: Raktim Ranjit](https://www.raktimranjit.com/)**
-
-<p align="center">
-  <img src="docs/assets/hero-animated.svg" alt="NodeDR POS: animated overview with an illustrative sample screen" width="100%">
-</p>
-
 
 A free, open-source, **offline-first** point-of-sale and inventory
 management system for small retail shops. It runs on a machine in your shop
@@ -41,20 +34,9 @@ tablet/phone on the same network.
 </p>
 
 
-NodeDR POS is a web app that runs on **one machine in your shop** (the "till"
+Suraj Choudhari POS is a web app that runs on **one machine in your shop** (the "till"
 or a small server). Every phone, tablet or PC on the same Wi-Fi then opens it in
-a browser at `http://<that-machine>:1994`. Pick the option that matches that
-machine:
-
-| I have… | Best option | Needs |
-| --- | --- | --- |
-| 🖥️ **Windows 10 or 11** | [**Microsoft Store app**](https://apps.microsoft.com/store/detail/9N4D0GW2XZ37?cid=DevShareMCLPCS) | nothing else |
-| 🐳 **Docker host, NAS or VPS** | [**One-command Docker Compose install**](#one-click-install) | Docker |
-| 🏠 **CasaOS / ZimaOS box** | [**CasaOS app**](casaos/README.md) | nothing else |
-
-These are the supported ways to install NodeDR POS. Standalone Windows, macOS,
-and Linux installer downloads are not distributed. Use Docker Compose on Mac
-or Linux.
+a browser at `http://<that-machine>:1994`.
 
 ### One-command install (Windows, macOS, or Linux)
 
@@ -77,10 +59,9 @@ curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scr
 
 When installation finishes, open <http://localhost:1994>. On another phone,
 tablet, or computer on the same Wi-Fi, open `http://<computer-ip>:1994` using
-the address of the machine running NodeDR POS. On Linux, the installer may
+the address of the machine running Suraj Choudhari POS. On Linux, the installer may
 need `sudo` to install Docker. On macOS, Homebrew is needed if Docker is not
-already installed. The Microsoft Store and CasaOS app remain the simplest
-options for those platforms.
+already installed.
 
 For a VPS, copy `.env.example` to `.env`, set
 `FRONTEND_ORIGIN=https://pos.yourdomain.com`, `COOKIE_SECURE=true` and
@@ -837,7 +818,7 @@ and the PDF renderer in [`backend/src/lib/pdf.js`](backend/src/lib/pdf.js)
 
 ```
 ================================================
-                  Raktim Store
+                  General Store
                    1 MG Road
                     Pune, MH
              GSTIN: 27ABCDE1234F1Z5
@@ -1269,8 +1250,7 @@ the [Contributor Covenant](CODE_OF_CONDUCT.md).
 
 ## License
 
-Copyright © 2026 [Nodedr Infotech Private Limited](https://www.nodedr.com/)
-and Raktim Ranjit. Licensed under the
+Copyright © 2026 Suraj Choudhari. Licensed under the
 [GNU Affero General Public License v3.0](LICENSE) (AGPL-3.0). In short:
 you're free to self-host, use, and modify this software for your shop. If
 you modify it and run that modified version as a network service for
@@ -1280,14 +1260,3 @@ business tool in the open rather than disappearing into a closed
 commercial fork.
 
 See [`MAINTAINERS.md`](MAINTAINERS.md) for project maintainers.
-
-
-## Case study
-
-Read the [NodeDR POS case study](https://www.raktimranjit.com/projects/nodedr-pos) for the product background and design decisions.
-
-Maintainer: [Raktim Ranjit](https://www.raktimranjit.com/)
-
-## Commercial licence
-
-Licensed under the AGPL-3.0. A [commercial licence](COMMERCIAL-LICENSE.md) is available on request for use without the AGPL obligations. The NodeDR POS name and logo are not covered by the AGPL.
