@@ -1,6 +1,6 @@
 {
-  "name": "Loyalty & receipts",
-  "short_name": "My receipts",
+  "name": "RetailA2Z POS",
+  "short_name": "RetailA2Z",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f7f9f6",

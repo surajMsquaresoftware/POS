@@ -1,15 +1,15 @@
-# Suraj Choudhari POS: installation and step-by-step tutorial
+# RetailA2Z: installation and step-by-step tutorial
 
-Suraj Choudhari POS is a free, open-source point-of-sale and inventory app for shops.
+RetailA2Z is a free, open-source point-of-sale and inventory app for shops.
 This guide walks through installation, first-time setup, adding products,
 making a sale, and the other tools available in the app. Every screenshot in
 [`docs/screenshots/`](docs/screenshots/) is included below.
 
-## 1. Install Suraj Choudhari POS
+## 1. Install RetailA2Z
 
 Choose the option that matches your device:
 
-- **CasaOS / ZimaOS:** install the [Suraj Choudhari POS CasaOS
+- **CasaOS / ZimaOS:** install the [RetailA2Z CasaOS
   app](casaos/README.md) from the app listing or follow its guide.
 - **Windows with WSL2, macOS, or Linux:** open PowerShell on Windows, or
   Terminal on macOS/Linux, and paste the matching one-line installer:

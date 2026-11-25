@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/logo.png" alt="Suraj Choudhari POS logo" width="160">
+  <img src="docs/logo.png" alt="RetailA2Z logo" width="160">
 </p>
 
-# Suraj Choudhari POS
+# RetailA2Z
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Docker Compose](https://img.shields.io/badge/deploy-docker%20compose-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
@@ -34,7 +34,7 @@ tablet/phone on the same network.
 </p>
 
 
-Suraj Choudhari POS is a web app that runs on **one machine in your shop** (the "till"
+RetailA2Z is a web app that runs on **one machine in your shop** (the "till"
 or a small server). Every phone, tablet or PC on the same Wi-Fi then opens it in
 a browser at `http://<that-machine>:1994`.
 
@@ -59,7 +59,7 @@ curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/scr
 
 When installation finishes, open <http://localhost:1994>. On another phone,
 tablet, or computer on the same Wi-Fi, open `http://<computer-ip>:1994` using
-the address of the machine running Suraj Choudhari POS. On Linux, the installer may
+the address of the machine running RetailA2Z. On Linux, the installer may
 need `sudo` to install Docker. On macOS, Homebrew is needed if Docker is not
 already installed.
 
@@ -1250,7 +1250,7 @@ the [Contributor Covenant](CODE_OF_CONDUCT.md).
 
 ## License
 
-Copyright © 2026 Suraj Choudhari. Licensed under the
+Copyright © 2026 RetailA2Z. Licensed under the
 [GNU Affero General Public License v3.0](LICENSE) (AGPL-3.0). In short:
 you're free to self-host, use, and modify this software for your shop. If
 you modify it and run that modified version as a network service for

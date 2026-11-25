@@ -16,25 +16,25 @@ const geistMono = Geist_Mono({
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:1994";
 const description =
-  "Suraj Choudhari POS is a free, open-source, offline-first Point of Sale and inventory management system for small retail shops. No subscription, no internet required.";
+  "RetailA2Z is a free, open-source, offline-first Point of Sale and inventory management system for small retail shops. No subscription, no internet required.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Suraj Choudhari POS | Offline-First POS & Inventory Management",
-    template: "%s | Suraj Choudhari POS",
+    default: "RetailA2Z | Offline-First POS & Inventory Management",
+    template: "%s | RetailA2Z",
   },
   description,
   manifest: "/manifest.webmanifest",
   openGraph: {
     type: "website",
-    siteName: "Suraj Choudhari POS",
-    title: "Suraj Choudhari POS | Offline-First POS & Inventory Management",
+    siteName: "RetailA2Z",
+    title: "RetailA2Z | Offline-First POS & Inventory Management",
     description,
   },
   twitter: {
     card: "summary",
-    title: "Suraj Choudhari POS | Offline-First POS & Inventory Management",
+    title: "RetailA2Z | Offline-First POS & Inventory Management",
     description,
   },
 };
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "Suraj Choudhari POS",
+  name: "RetailA2Z",
   applicationCategory: "BusinessApplication",
   operatingSystem: "Windows, Linux, Docker",
   description,
@@ -53,8 +53,8 @@ const structuredData = {
     priceCurrency: "USD",
   },
   publisher: {
-    "@type": "Person",
-    name: "Suraj Choudhari",
+    "@type": "Organization",
+    name: "RetailA2Z",
   },
 };
 
@@ -73,7 +73,7 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
-      <body className="min-h-full flex flex-col bg-background text-foreground">
+      <body suppressHydrationWarning className="min-h-full flex flex-col bg-background text-foreground">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

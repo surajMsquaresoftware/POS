@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use Suraj Choudhari POS in research, teaching, or a public project, please cite it."
+message: "If you use RetailA2Z in research, teaching, or a public project, please cite it."
 type: software
-title: "Suraj Choudhari POS"
+title: "RetailA2Z"
 authors:
   - family-names: Choudhari
     given-names: Suraj

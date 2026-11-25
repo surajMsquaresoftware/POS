@@ -16,7 +16,7 @@ import { ReceiptHero } from "@/components/ReceiptHero";
 
 const title = "Free POS Software – Offline, Open Source, No Subscription";
 const description =
-  "Suraj Choudhari POS is free, open-source point-of-sale software for small retail shops. Runs fully offline, self-hosted on your own machine, no subscription or per-sale fees, with GST-ready billing for India.";
+  "RetailA2Z is free, open-source point-of-sale software for small retail shops. Runs fully offline, self-hosted on your own machine, no subscription or per-sale fees, with GST-ready billing for India.";
 
 export const metadata: Metadata = {
   title,
@@ -71,19 +71,19 @@ const COMPARISON_ROWS: [string, string, string][] = [
 
 const FAQS = [
   {
-    q: "Is Suraj Choudhari POS really free, with no subscription or hidden fees?",
+    q: "Is RetailA2Z really free, with no subscription or hidden fees?",
     a: "Yes. It's AGPL-3.0-licensed and open source — no subscription, no per-transaction fee, and no paid tier. You self-host it on hardware you already own or a low-cost VPS, so there's no ongoing software cost.",
   },
   {
     q: "Does this free POS software work without internet?",
-    a: "Yes. Suraj Choudhari POS runs entirely offline once installed. The app and its database run locally via Docker Compose or CasaOS, so checkout and receipt printing keep working with no internet connection.",
+    a: "Yes. RetailA2Z runs entirely offline once installed. The app and its database run locally via Docker Compose or CasaOS, so checkout and receipt printing keep working with no internet connection.",
   },
   {
     q: "Is open-source POS software safe for handling sales and customer data?",
     a: "Your data never leaves your premises unless you choose to host it elsewhere yourself. Because the code is open source, you (or anyone) can audit exactly how it handles passwords, pricing, and customer records, rather than trusting a closed-source cloud vendor.",
   },
   {
-    q: "Does Suraj Choudhari POS support GST billing for Indian retailers?",
+    q: "Does RetailA2Z support GST billing for Indian retailers?",
     a: "Yes. Pricing is GST-inclusive by default, matching India's Legal Metrology MRP rules, with per-product HSN/SAC codes and a CGST/SGST breakup shown on every receipt.",
   },
   {
@@ -117,7 +117,7 @@ export default function HomePage() {
               Free POS software that works completely offline
             </h1>
             <p className="max-w-lg text-balance text-base text-foreground/70 sm:text-lg">
-              Suraj Choudhari POS is open-source point-of-sale and inventory software for small retail
+              RetailA2Z is open-source point-of-sale and inventory software for small retail
               shops. Self-hosted on your own machine, with no subscription, no per-sale fee, and
               no internet connection required to make a sale.
             </p>
@@ -172,14 +172,14 @@ export default function HomePage() {
 
         <section aria-labelledby="compare-heading" className="flex flex-col gap-6">
           <h2 id="compare-heading" className="text-xl font-semibold text-foreground">
-            Suraj Choudhari POS vs. typical cloud POS software
+            RetailA2Z vs. typical cloud POS software
           </h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full min-w-[480px] border-collapse text-left text-sm">
               <thead>
                 <tr className="border-b-2 border-border">
                   <th className="px-4 py-3 font-semibold text-foreground/70">&nbsp;</th>
-                  <th className="px-4 py-3 font-semibold text-foreground">Suraj Choudhari POS</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">RetailA2Z</th>
                   <th className="px-4 py-3 font-semibold text-foreground/70">Typical cloud POS</th>
                 </tr>
               </thead>
@@ -220,7 +220,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-semibold text-foreground">Get started for free</h2>
           <p className="max-w-xl text-sm text-foreground/70">
             Pick your OS and run one command — it checks for Docker, installs it if it&apos;s
-            missing, then installs and starts Suraj Choudhari POS. No signup, no credit card, no trial
+            missing, then installs and starts RetailA2Z. No signup, no credit card, no trial
             period.
           </p>
           <QuickstartCommand />

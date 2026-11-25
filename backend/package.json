@@ -1,9 +1,9 @@
 {
-  "name": "nodedr-pos-backend",
+  "name": "retaila2z-backend",
   "version": "1.6.2",
   "private": true,
   "description": "Offline POS backend: API, SQLite via Prisma, receipt PDF/print generation",
-  "author": "Suraj Choudhari",
+  "author": "RetailA2Z",
   "license": "AGPL-3.0-only",
   "repository": {
     "type": "git",
