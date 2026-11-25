@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// NodeDR POS tray / menu-bar icon:
-//   • click "Open NodeDR POS" for the register
+// RetailA2Z tray / menu-bar icon:
+//   • click "Open RetailA2Z" for the register
 //   • a live status line (green running / red stopped, checked every 5 s)
 //   • "Restart service"
 // Works on Windows, Linux (needs an AppIndicator-capable desktop) and macOS.
@@ -20,7 +20,7 @@ const png = fs.readFileSync(path.join(__dirname, 'icon.png'));
 const icon = (process.platform === 'win32' ? pngToIco(png) : png).toString('base64');
 
 const items = {
-  open: { title: 'Open NodeDR POS', tooltip: 'Open the register in your browser', enabled: true },
+  open: { title: 'Open RetailA2Z', tooltip: 'Open the register in your browser', enabled: true },
   status: { title: '○ Checking…', tooltip: 'Service status', enabled: false },
   restart: { title: 'Restart service', tooltip: 'Restart the POS service', enabled: true },
   quit: { title: 'Quit tray icon', tooltip: 'Closes this icon (the POS keeps running)', enabled: true },
@@ -31,7 +31,7 @@ const tray = new SysTray({
     icon,
     isTemplateIcon: process.platform === 'darwin',
     title: '',
-    tooltip: 'NodeDR POS',
+    tooltip: 'RetailA2Z',
     items: [items.open, items.status, SysTray.separator, items.restart, SysTray.separator, items.quit],
   },
   debug: false,

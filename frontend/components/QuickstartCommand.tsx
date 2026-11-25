@@ -80,7 +80,7 @@ export function QuickstartCommand() {
       <p className="max-w-md text-xs text-foreground/60">{active.note}</p>
       <p className="text-xs text-foreground/60">
         One command, checks for Docker and installs it if it&apos;s missing, then installs and starts
-        Suraj Choudhari POS.{" "}
+        RetailA2Z.{" "}
         <a
           href={`${RAW_BASE}/${active.id === "windows" ? "quickstart.ps1" : "quickstart.sh"}`}
           target="_blank"

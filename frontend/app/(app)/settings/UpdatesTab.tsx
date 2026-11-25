@@ -76,7 +76,7 @@ export function UpdatesTab() {
   async function update() {
     if (!data) return;
     setFailure(null);
-    const ok = await withPasswordConfirm("update Suraj Choudhari POS", async (confirmPassword) => {
+    const ok = await withPasswordConfirm("update RetailA2Z", async (confirmPassword) => {
       await api.post("/update/apply", { confirmPassword });
       return true;
     });
@@ -126,7 +126,7 @@ export function UpdatesTab() {
             <div>
               <Button onClick={update}>Update now</Button>
               <p className="mt-2 text-xs text-foreground-muted">
-                Downloads the latest version and restarts Suraj Choudhari POS (about a minute). Do this when no sale is in progress.
+                Downloads the latest version and restarts RetailA2Z (about a minute). Do this when no sale is in progress.
               </p>
             </div>
           ) : (

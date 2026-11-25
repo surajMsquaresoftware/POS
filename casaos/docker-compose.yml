@@ -104,8 +104,8 @@ x-casaos:
     - amd64
     - arm64
   main: frontend
-  author: Suraj Choudhari
-  developer: Suraj Choudhari
+  author: RetailA2Z
+  developer: RetailA2Z
   category: Finance
   icon: https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/icon.png
   thumbnail: https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/thumbnail.png
@@ -114,12 +114,12 @@ x-casaos:
     - https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/screenshot-2.png
     - https://cdn.jsdelivr.net/gh/surajMsquaresoftware/POS@master/casaos/screenshot-3.png
   title:
-    en_US: NodeDR POS
+    en_US: RetailA2Z
   tagline:
     en_US: Offline-first point of sale and inventory for small retail shops
   description:
     en_US: |
-      NodeDR POS is a free, open-source, offline-first Point of Sale and
+      RetailA2Z is a free, open-source, offline-first Point of Sale and
       inventory management system for small retail shops. No subscription,
       no internet connection required, no data ever leaving your home
       server — it's built to run on your own hardware and stay there.

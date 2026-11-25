@@ -89,8 +89,8 @@ export default function OnboardingPage() {
     <main className="flex min-h-screen flex-1 flex-col items-center justify-center gap-6 bg-background px-4 py-10">
       <Card className="w-full max-w-lg p-8">
         <div className="mb-8 flex flex-col items-center gap-3 text-center">
-          <Image src="/logo.png" alt="Suraj Choudhari POS" width={64} height={64} className="h-16 w-16 rounded-full" priority />
-          <h1 className="text-xl font-semibold text-foreground">Welcome to Suraj Choudhari POS</h1>
+          <Image src="/logo.png" alt="RetailA2Z" width={180} height={50} className="h-12 w-auto max-w-[220px] object-contain" priority />
+          <h1 className="text-xl font-semibold text-foreground">Welcome to RetailA2Z</h1>
           <p className="text-sm text-foreground/60">Let&apos;s set up your shop.</p>
         </div>
 

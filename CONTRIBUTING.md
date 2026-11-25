@@ -1,6 +1,6 @@
-# Contributing to NodeDR POS
+# Contributing to RetailA2Z
 
-Thanks for considering a contribution to NodeDR POS — a free, offline-first
+Thanks for considering a contribution to RetailA2Z — a free, offline-first
 Point of Sale for small retail shops. This is a small, focused tool with a
 real production surface (Docker/CasaOS and a macOS app, all shipping from
 the same code), so this guide covers
@@ -30,8 +30,8 @@ participating, you agree to uphold it.
 
 ## Maintainers & copyright
 
-See [`MAINTAINERS.md`](./MAINTAINERS.md) — Suraj Choudhari is the lead
-maintainer; project copyright is held by Suraj Choudhari. By submitting a PR, you agree your contribution is licensed under
+See [`MAINTAINERS.md`](./MAINTAINERS.md) — RetailA2Z is the lead
+maintainer; project copyright is held by RetailA2Z. By submitting a PR, you agree your contribution is licensed under
 the same [AGPL-3.0](./LICENSE) as the rest of the project; you retain
 copyright on your own contribution.
 

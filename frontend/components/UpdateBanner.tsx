@@ -34,7 +34,7 @@ export function UpdateBanner({ isAdmin }: { isAdmin: boolean }) {
     <div role="status" className="flex items-center gap-3 border-b border-brand/30 bg-brand-soft px-4 py-2.5 text-sm text-foreground sm:px-6">
       <ArrowUpCircle className="h-4 w-4 shrink-0 text-brand" aria-hidden="true" />
       <p className="min-w-0 flex-1">
-        <span className="font-medium">Update available:</span> Suraj Choudhari POS {data.latest} is ready (you have {data.current}).
+        <span className="font-medium">Update available:</span> RetailA2Z {data.latest} is ready (you have {data.current}).
       </p>
       <Link
         href="/settings?tab=Updates"

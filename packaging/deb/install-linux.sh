@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# One-command install of Suraj Choudhari POS on Ubuntu or Debian (amd64 or arm64).
+# One-command install of RetailA2Z on Ubuntu or Debian (amd64 or arm64).
 #
 #   curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/packaging/deb/install-linux.sh | sudo bash
 #
 # Downloads the .deb for the latest release from GitHub, checks its SHA-256, makes sure Docker and Docker Compose
-# are present, and installs the package with apt. The package starts Suraj Choudhari POS under systemd (it runs in Docker)
+# are present, and installs the package with apt. The package starts RetailA2Z under systemd (it runs in Docker)
 # and it is then available at http://localhost:1994.
 # Pin a version:  curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/packaging/deb/install-linux.sh | sudo NODEDR_POS_VERSION=X.Y.Z bash
 # Read it first:  curl -fsSL https://raw.githubusercontent.com/surajMsquaresoftware/POS/master/packaging/deb/install-linux.sh | less

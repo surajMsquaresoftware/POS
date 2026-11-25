@@ -116,9 +116,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="flex min-h-screen flex-1 flex-col lg:flex-row">
       {/* Mobile header */}
       <header className="flex items-center justify-between border-b border-border-subtle bg-surface px-4 py-3 lg:hidden">
-        <div className="flex items-center gap-2">
-          <Image src="/logo.png" alt="" width={28} height={28} className="h-7 w-7 shrink-0 rounded-full" aria-hidden="true" />
-          <span className="truncate font-semibold text-foreground">{shop?.shopName || "Suraj Choudhari POS"}</span>
+        <div className="flex items-center gap-2.5 min-w-0">
+          <Image src="/logo.png" alt="RetailA2Z" width={110} height={28} className="h-6 w-auto object-contain shrink-0" aria-hidden="true" priority />
+          {shop?.shopName && (
+            <span className="truncate text-xs font-medium text-foreground-muted border-l border-border-subtle pl-2.5">
+              {shop.shopName}
+            </span>
+          )}
         </div>
         <div className="flex items-center gap-1">
           <button
@@ -156,11 +160,17 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           navOpen ? "translate-x-0" : "-translate-x-full"
         )}
       >
-        <div className="flex items-center gap-2.5 border-b border-border-subtle px-5 py-5">
-          <span className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-brand-soft">
-            <Image src="/logo.png" alt="" width={22} height={22} className="h-[22px] w-[22px] rounded-md" aria-hidden="true" />
-          </span>
-          <span className="truncate font-semibold tracking-tight text-foreground">{shop?.shopName || "Suraj Choudhari POS"}</span>
+        <div className="flex h-16 items-center border-b border-border-subtle px-5">
+          <Link href="/dashboard" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="RetailA2Z"
+              width={160}
+              height={40}
+              className="h-8 w-auto object-contain"
+              priority
+            />
+          </Link>
         </div>
         <nav className="flex-1 space-y-1 px-3 py-4">
           {visibleItems.map((item) => {
@@ -215,7 +225,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
       <div className="flex flex-1 flex-col overflow-hidden">
         {/* Utility top bar (desktop) */}
-        <header className="hidden items-center gap-4 border-b border-border-subtle bg-surface/80 px-6 py-3 backdrop-blur-md lg:flex">
+        <header className="hidden h-16 items-center gap-4 border-b border-border-subtle bg-surface/80 px-6 backdrop-blur-md lg:flex">
           <Link
             href={me?.role === "admin" ? "/settings" : "#"}
             className={clsx(
@@ -223,7 +233,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               me?.role === "admin" && "hover:bg-surface-muted"
             )}
           >
-            <span className="truncate">{shop?.shopName || "Suraj Choudhari POS"}</span>
+            <span className="truncate">{shop?.shopName || "RetailA2Z"}</span>
             {me?.role === "admin" && <ChevronDown className="h-3.5 w-3.5 text-foreground-muted" aria-hidden="true" />}
           </Link>
 
